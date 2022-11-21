@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My trips</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 90%;
+        width: 90%;
+        margin: auto;
+        padding: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="#">
+          <img src="My camper.png" alt="Logo" width="300" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html">Favorite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/pw/AL9nZEXTJ0BOZn0sIpgootAZwxvMYHgAaHoP69K9tx9bwiiLRCLRiPqA3pyogYpW-SB62T_IW0xlYt5-UxUyX5nt0DSoHb-Aqt3-U-yBp6qpVRKamHsFH-4ZN-1AhWYR1RIrmP_NkBX5269scB2-wS3vKDbmv4jG575N2mRxWM6ikZoKPrZCkiXH2pyAMtYOLNhxBQB5iQAgPu6MNq0XdwCR0N7rDqt5LpzgCsjwu7i9gYFLqJ3D_5bdnbKLhz0BBxuCGCejfI3YZ1iLMAwoHzbyuIMfUxZEmB1jTL6HCAsK96vdnKKjicwqEM7_tLtbuIjQ5BCjmmEG2gQOecYXDmxdEjGsUal7e3PlrdWckCFcl3sESFI2ouE5ts7RsXLl5_9yNFLCgupLTzBKyq1GbeD3tpDsS-nHSrbP-R3LfU-cfrSws-VAjv9cpxooSpvtm8IBUPREgbWEa_8885NLKybtu4YjQsyoH0cyzKl5HGxoykzSCwQlulKV4H-VAvVQJzb6sgcJ-BjFB4SD_2armclTTE5P1PfPlc4vyjFMyAu700AzWTYe5_w0JayVPsc1PiMQaHiPMOlQ6O9qr2AGLFIGfo36I8haYCBn9tqJA8LCEriRGKF_Hfo0E7wRMsMQTo9ApmynIhC5Ny4KfszygVov9ocEjTy1UUlM3Mzx0A-0UA29iBNVC531wdh-mcpGi80yWXvMQlmu6FBHCq_KKUCc3aP8eHmi_ab2XGF7OEzHPxquKvcjT9OSLONPAxH3ecEkiYjaY4NZve-c50HJSxtG74i5TPAzkRChwh8QOLwoCdrfl3_5aMRRabC3fO0Vdmfg2XEpAP0OwNOZC17x6JCCAuniTWdkj3MeEX_oP80yg5chN7hLso0Y7pvuefQP3UVwY_qBqBDusVGt4gorO1ixjr4YN9ya5L0ysxR7YbCLCYjtcS3o0TZmQnsFYsJhSxJj=w316-h237-no?authuser=0"
+              class="card-img-top"
+              alt="my image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Поездка на Оку</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a
+                href="https://lh3.googleusercontent.com/0e67LMyWnZ6H-0D0xxdvGR3SZ8QFebPBaX99FoHNEnakE8htcwt8LkjXv0H6QS0JrwGavp1Sq-iV8rpIwzq6kxQqCvbcibPhrDiTOllF3KOvU6J_oQYb5HvLSra7rVt1pCia5TRuabfdlvWFbLLXgtAFwWhKFL8WbIsy4Yjfs54xQv8ORG4zMMcEhqZc5q39gG1az6DppD1LX0FL1-UQOLZDmJRZf0ybJXdFv2FATlegaHGMesy7_xBpeJ0IIMMsK8ZnuYp7R6IWVi7LH6MhzVwNbCsXDtKjAGl50lxnAXGq-NOvQs2WQF1Dye9_teDKmJtW4SOV8iN_x_NraMMnHkd82DSV_Zxst91rnBVtto4-p0Abyt_rt2Ly1XSOUyEk0ryL3KGbsjA9HGnOhO7U8_pzbuqFNK0aJwwN-M54cKVjb-YliwgQlZcB4VmVP2DTaH359eWeoMAw-hIFhsgqK1qiT3Bj_un_G2AITKVStGkTJQIkc4BOsn_Dr9wH2OrqW4j8b0xG-EstmRjABWuIpG1clox-kS3W9pRlwploZ0qhl43Vm66i56euYeTZlDQ5OTn8U0FIdvbJl2gaaWV8moR2rlLzl-HiJUDpXKCdJscIrgu-YfNPCTsPAiT22O_RrlZb5meARhcSZtPlbq5Gz3rGEF0BCoFeUxUHqwodI32xDkF_WlUyEDJv8lyaP1ZBoWqH9MzIIUbiYL4X5yg6wt7mS3vGT8-yzf08bhreYk-FPYt7b724BhCWq40LvNfO7mDbe5D9gmRYfbGmaGfE7ALiswa2UFHtWCOAd4Knyif1CLK4b8s23XI6bwtdC1pesedMJhGWjtENpgP2zLPYQj0Y3ZyIKQuNnkOEgZbRbn50GJvRWLhoa8S_bcDKAUmpegw_CppUWWLtY6EX8O-vter-4EERgX9K8dbVGxY=w1086-h814-no?authuser=0"
+                target="_blank"
+                class="btn btn-primary"
+                >Посмотреть</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/oPUHUC2y0wKxVCEmFGOAa8XPbeo44XoWqHqpCPsmQMLo_1M8KTagemJGdNJQX_CAG4ZTtF5y-ff5-GTQwLekgxUWLQW2keRidB9duo0bTngrovFjU5NcjLucRj6kOGZMyCYQwtZxVaz7xXMPclhNS-EDUUEtIb9UaFepQ9ERk0i9RiEvbQEQ_oZHWDUXjJmwt6zYFcf-Kp_Aux66xDFpv6N4rZLVXA5l0CdftedbYA6KerOumJk4OdAtp7AomJ4VUjoN4Y1nI-dqoBHvaE80XaQLyzqQrUikakoccttLk8RmPTAoBj9qSrbrfHSNOHeYdVf4R27fTtTWYu06nMVtVNfEDvQUi4IPGOlqHrkf-AVNBg4fkqHOti0VFMeT1BJ7iJCtAV_S-uVGlBf7EVM5ci8uLC-Yajasrr5qg17TIaKq5ynuB-GDUkAN9a_1TV8pi_uP9T4YYDzMG10qwdbyjwtmMylBbXsgi9GuUF31qz3VUNnEqq-mLMGOtlaVKe8UfQu7xk1nlJ74l96HBRaKloVKW7HP6KhbQlWiLJaePylhAidiJlczfTVtlvFaLhHb_EPsL0UgJpXo2eO1gO7-4CIo5Ha0fNWlQkXxw2q4DCnnm85q_pSCTVTQK9DXcBHqqhYKldI9vHOwFOmP0CVZhdpiZE0xODRvSCPFuzw6Xqvzr1GwiHUF-Qz2oPDeukGpYXbC5QZbJ4y2y0rUW_e6TL0VsiRIalND-73RJBomj3-OX5rEftdx6lzYped_A2R3KzGy43N6IAx6O_xC-kAxBssGKHXlrU9rSatAhhjsDDkX-azLJrpBJua_w-p6uB4wUXPYU4WMxQjFtGva9aU3EMZVBqKV-CEYWjhxS1_GMjhJbFr9TbL4lkcNlB37G-NpoGiMRFO7E_0WGSH5poDb6ZGBu4pLn9BDrEe02l0=w1070-h802-no?authuser=0"
+              class="card-img-top"
+              alt="my image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Отдых на озере Мечта</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://lh3.googleusercontent.com/wI5uR0-Jn3Pz2f3Ip8zJruLc6VIegGda1t_pSgBApPLHOEEwGMx8VURq09tIR213q9710JyO00IgZtrKC0PLsVruj6oFO4VqtQvUjg-Bs-yLK-8wS8yvkCzjEuxwu7CTvYMRbZYRCF-le_QoVnOUWYj5CLoTvcAlsVuclMZvjTCllZScF2USuZzhtr5smo7itUwsro2x-0mGuOVmeQfx1eJqVfCTcosAfqRFbhJiCgzU35zW4_65LqF2Q7LDWlxnA_tCbMxoDr5_3Bg2u5KcFnuHETDXrCXte1Gx8et0QbqXK018dEEW59OSW15LAp33Jh009rvZ5zjNMQsS1pCJeBGRI15Qkbbxl0lbAR-G1Oi2lIuHrG-tjMp6Si2bwFVO1ZS4E7ujC-YwXbL0fLttwM54e6uwIcHFLlZvFpkZUdlz7cu5dXiEKjv8HnQ5IC4cXGvDTVYmKbBUhz53cAZK-I81N9ncnPYQPCWBPXpyKAVDeqY0P7Lw6HIhAyzAsmbkn7KOYtlumjOgW7sRQMh7S-OKeQ_3vvMN-sLToVSB184ttIduwO4GbvOFatBqNsRYqGDuPojz2ovneLoazEj-gjQLzRPXHGAMqXwLJTkw06V9kW2IPdP2LDS1mrpvKx1fjmDwT1bWdGMUVZyhTA5orjvf223ljQphlMx_1pbUeANXkitD4FmD7Dc_aj4Ok7RevXr7lUFiNb6j22JPkdpEtLkeQUXmbeRRtfIq2UTMSNAxIJfMkvqKmviiTxwNl1UUETGxyCKIlQsQfOvX9UgUwgbRbXyjBcJMP2OqBUw6F3aYHX_Mv04ZBnM3f4vD3BAsmXG_1OEgGFmPDy7djAfBIIi8QxnV4WeuYKW0uHP7m8fMAM2TBODfBw-2eqraiNnopkz0mtIjr_RvAqLV1FE_tUc1hcZesKWM_W_d4ek=w1086-h814-no?authuser=0"
+              class="card-img-top"
+              alt="my image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Поездка в Смоленск</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
